@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h2>html forms</h2>
+    <!-- action is to tell where the entered data go...... -->
+    <form action="backend.php">
+        <!-- div(division tag) is used as br  -->
+        <div>
+
+            Name:<input type="text" name="myname"> <!--name attribute is used for understanding in backend-->
+        </div>
+        <br>
+        <div>
+            role: <input type="text" name="myrole">
+        </div>
+        <br>
+        <div>
+            address: <input type="text" name="myaddress">
+        </div>
+        <br>
+        <div>
+            email: <input type="email" name="myemail">
+        </div>
+        <br>
+
+        <div>
+            Date: <input type="date" name="input date">
+        </div>
+        <br>
+        <div>
+            phone no. <input type="number" name="phoen no.0">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="mycheckbox">
+        </div>
+        <br>
+        <div>
+            <!-- if name attribute is same then you can select on one  -->
+            Gender: male<input type="radio" name="mygender">female<input type="radio" name="mygender">other<input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            <!-- value means to display on the submit button -->
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+        <br>
+
+    </form>
+
+</body>
+
+</html>
