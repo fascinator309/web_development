@@ -19,7 +19,10 @@
         </div>
         <br>
         <div>
-            role: <input type="text" name="myrole">
+            <!-- when click on label word typing area also selected -->
+        <label for="role">Role:</label>
+        
+           <input type="text" name="myrole" id="role">
         </div>
         <br>
         <div>
@@ -40,12 +43,29 @@
         </div>
         <br>
         <div>
-            Are you eligible: <input type="checkbox" name="mycheckbox">
+            Are you eligible: <input type="checkbox" name="mycheckbox"><br>
+            <!-- checked is used for already checked box -->
+            Are you eligible: <input type="checkbox" name="mycheckbox" checked>
         </div>
         <br>
         <div>
             <!-- if name attribute is same then you can select on one  -->
             Gender: male<input type="radio" name="mygender">female<input type="radio" name="mygender">other<input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            write about your self:
+            <br>
+            <textarea name="mytext"  cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+         <label for="car">Car:</label>
+         <select name="mycar" id="car">
+            <option value="default" selected>select</option>
+            <option value="sft">swift</option>
+            <option value="xuv">xuv 700</option>
+         </select>
         </div>
         <br>
         <div>
